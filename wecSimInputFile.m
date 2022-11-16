@@ -113,7 +113,7 @@ waveGroup = [waves1;waves2];%;waves3;waves4];
 
 %% Body Data
 % Float
-body(1) = bodyClass(sprintf('hydroData/rm3_p%d.h5',caseID));  %bodyClass('hydroData/rm3.h5');;%    
+body(1) = bodyClass(sprintf('hydroData/m3_scale_runs_0-360_deg/rm3_p%d.h5',caseID));  %bodyClass('hydroData/rm3.h5');;%    
 % body(1) = bodyClass('hydroData/rm3.h5');
     % Create the body(1) Variable, Set Location of Hydrodynamic Data File 
     % and Body Number Within this File.   
@@ -127,7 +127,7 @@ body(1).inertia = [Ix, Iy, Iz]*rho;  % Moment of Inertia [kg*m^2]
 body(1).yaw.option = 1;
 body(1).yaw.threshold = .1;
 % Spar/Plate
-body(2) = bodyClass(sprintf('hydroData/rm3_p%d.h5',caseID)); %
+body(2) = bodyClass(sprintf('hydroData/rm3_scale_runs_0-360_deg/rm3_p%d.h5',caseID)); %
 % body(2) =  bodyClass('hydroData/rm3.h5');%
 body(2).geometryFile = sprintf('geometry/spar_p%d.stl',caseID); 
 body(2).mass = 886691;   
