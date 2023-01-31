@@ -4,8 +4,8 @@ WEC-Sim: An open-source code for simulating wave energy converters
 Version: 5.0
 
 Initializing the Simulation Class...
-	Case Dir: C:\Users\shusain\Documents\GitHub\ChopWave_Cases 
-Elapsed time is 2.012280 seconds.
+	Case Dir: C:\Users\shusain\Documents\GitHub\seedling_ChopWave_Cases 
+Elapsed time is 7.468381 seconds.
 
 WEC-Sim Pre-processing ...   
 	Infinite water depth specified in BEM and "waves.waterDepth" not specified in input file.
@@ -17,55 +17,23 @@ In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('body
 In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('initializeWecSim', 'C:\Users\shusain\Documents\GitHub\WEC-Sim_sH\source\functions\initializeWecSim.m', 242)" style="font-weight:bold">initializeWecSim</a> (<a href="matlab: opentoline('C:\Users\shusain\Documents\GitHub\WEC-Sim_sH\source\functions\initializeWecSim.m',242,0)">line 242</a>)
 In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('run', 'C:\Program Files\MATLAB\R2022b\toolbox\matlab\lang\run.m', 91)" style="font-weight:bold">run</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2022b\toolbox\matlab\lang\run.m',91,0)">line 91</a>)
 In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('wecSim', 'C:\Users\shusain\Documents\GitHub\WEC-Sim_sH\source\wecSim.m', 43)" style="font-weight:bold">wecSim</a> (<a href="matlab: opentoline('C:\Users\shusain\Documents\GitHub\WEC-Sim_sH\source\wecSim.m',43,0)">line 43</a>)] 
-[Warning: Passive yaw is not recommended without BEM data spanning a full yaw rotation -180 to 180 dg.
-Please inspect BEM data for gaps] 
-[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('bodyClass/irrExcitation', 'C:\Users\shusain\Documents\GitHub\WEC-Sim_sH\source\objects\bodyClass.m', 600)" style="font-weight:bold">bodyClass/irrExcitation</a> (<a href="matlab: opentoline('C:\Users\shusain\Documents\GitHub\WEC-Sim_sH\source\objects\bodyClass.m',600,0)">line 600</a>)
-In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('bodyClass/hydroForcePre', 'C:\Users\shusain\Documents\GitHub\WEC-Sim_sH\source\objects\bodyClass.m', 302)" style="font-weight:bold">bodyClass/hydroForcePre</a> (<a href="matlab: opentoline('C:\Users\shusain\Documents\GitHub\WEC-Sim_sH\source\objects\bodyClass.m',302,0)">line 302</a>)
-In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('initializeWecSim', 'C:\Users\shusain\Documents\GitHub\WEC-Sim_sH\source\functions\initializeWecSim.m', 242)" style="font-weight:bold">initializeWecSim</a> (<a href="matlab: opentoline('C:\Users\shusain\Documents\GitHub\WEC-Sim_sH\source\functions\initializeWecSim.m',242,0)">line 242</a>)
-In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('run', 'C:\Program Files\MATLAB\R2022b\toolbox\matlab\lang\run.m', 91)" style="font-weight:bold">run</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2022b\toolbox\matlab\lang\run.m',91,0)">line 91</a>)
-In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('wecSim', 'C:\Users\shusain\Documents\GitHub\WEC-Sim_sH\source\wecSim.m', 43)" style="font-weight:bold">wecSim</a> (<a href="matlab: opentoline('C:\Users\shusain\Documents\GitHub\WEC-Sim_sH\source\wecSim.m',43,0)">line 43</a>)] 
-Elapsed time is 0.758382 seconds.
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('griddedInterpolant')" style="font-weight:bold">griddedInterpolant</a>
+Sample points must be unique.
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('interpn', 'C:\Program Files\MATLAB\R2022b\toolbox\matlab\polyfun\interpn.m', 151)" style="font-weight:bold">interpn</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2022b\toolbox\matlab\polyfun\interpn.m',151,0)">line 151</a>)
+           F = griddedInterpolant(X{:}, V, method,extrap);
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('bodyClass/irrExcitation', 'C:\Users\shusain\Documents\GitHub\WEC-Sim_sH\source\objects\bodyClass.m', 608)" style="font-weight:bold">bodyClass/irrExcitation</a> (<a href="matlab: opentoline('C:\Users\shusain\Documents\GitHub\WEC-Sim_sH\source\objects\bodyClass.m',608,0)">line 608</a>)
+                obj.hydroForce.fExt.fEHRE=interpn(hdofGRD,hdirGRD,hwGRD,obj.hydroData.hydro_coeffs.excitation.re(:,idx,:),...
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('bodyClass/hydroForcePre', 'C:\Users\shusain\Documents\GitHub\WEC-Sim_sH\source\objects\bodyClass.m', 302)" style="font-weight:bold">bodyClass/hydroForcePre</a> (<a href="matlab: opentoline('C:\Users\shusain\Documents\GitHub\WEC-Sim_sH\source\objects\bodyClass.m',302,0)">line 302</a>)
+                    obj.irrExcitation(w,bemCount,direction,rho,g);
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('initializeWecSim', 'C:\Users\shusain\Documents\GitHub\WEC-Sim_sH\source\functions\initializeWecSim.m', 242)" style="font-weight:bold">initializeWecSim</a> (<a href="matlab: opentoline('C:\Users\shusain\Documents\GitHub\WEC-Sim_sH\source\functions\initializeWecSim.m',242,0)">line 242</a>)
+        body(it).hydroForcePre(waves.omega,waves.direction,simu.cicTime,waves.bem.count,simu.dt,...
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('run', 'C:\Program Files\MATLAB\R2022b\toolbox\matlab\lang\run.m', 91)" style="font-weight:bold">run</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2022b\toolbox\matlab\lang\run.m',91,0)">line 91</a>)
+evalin('caller', strcat(script, ';'));
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('wecSim', 'C:\Users\shusain\Documents\GitHub\WEC-Sim_sH\source\wecSim.m', 43)" style="font-weight:bold">wecSim</a> (<a href="matlab: opentoline('C:\Users\shusain\Documents\GitHub\WEC-Sim_sH\source\wecSim.m',43,0)">line 43</a>)
+run('initializeWecSim');} 
+wecSim
+WEC-Sim: An open-source code for simulating wave energy converters
+Version: 5.0
 
-WEC-Sim Simulation Settings:
-	Start Time                     (sec) = 0
-	End Time                       (sec) = 50
-	Time Step Size                 (sec) = 0.1
-	Ramp Function Time             (sec) = 0
-	Convolution Integral Interval  (sec) = 40
-	 Number of Time Steps     = 500 
-
-Wave Environment: 
-	Wave Type                            = Irregular Waves (Arbitrary Random Phase)
-	Spectrum Type                        = Pierson-Moskowitz  
-	Significant Wave Height, Hs      (m) = 1E-77
-	Peak Wave Period, Tp           (sec) = 2.5
-
-List of Body: Number of Bodies = 2 
-
-	***** Body Number 1, Name: float_p10 *****
-	Body CG                          (m) = [0,0,-0.72]
-	Body Mass                       (kg) = 725834 
-	Body Diagonal MOI              (kgm2)= [1.96621E+07,1.96621E+07,3.79526E+07]
-
-	***** Body Number 2, Name: spar_p10 *****
-	Body CG                          (m) = [0,0,-21.29]
-	Body Mass                       (kg) = 886691 
-	Body Diagonal MOI              (kgm2)= [1.07547E+08,1.07547E+08,1.18897E+07]
-
-List of PTO(s): Number of PTOs = 1 
-
-	***** PTO Name: PTO1 *****
-	PTO Stiffness           (N/m;Nm/rad) = 0
-	PTO Damping           (Ns/m;Nsm/rad) = 0
-
-List of Constraint(s): Number of Constraints = 1 
-
-	***** Constraint Name: Constraint1 *****
-
-
-Simulating the WEC device defined in the SimMechanics model C:\Users\shusain\Documents\GitHub\ChopWave_Cases\RM3.slx...   
-Elapsed time is 0.196524 seconds.
-Elapsed time is 14.422011 seconds.
-
-Post-processing and saving...   
-Elapsed time is 0.072072 seconds.
+Initializing the Simulation Class...
+	Case Dir: C:\Users\shusain\Documents\GitHub\seedling_ChopWave_Cases\RM3 
