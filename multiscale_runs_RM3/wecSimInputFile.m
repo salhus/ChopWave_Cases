@@ -3,7 +3,7 @@
 %% Simulation Data
 simu = simulationClass();               % Initialize Simulation Class
 simu.simMechanicsFile = 'RM3.slx';      % Specify Simulink Model File
-simu.mode = 'normal';                   % Specify Simulation Mode ('normal','accelerator','rapid-accelerator')
+simu.mode = 'accelerator';                   % Specify Simulation Mode ('normal','accelerator','rapid-accelerator')
 if viz == 1
 simu.explorer = 'on';                   % Turn SimMechanics Explorer (on/off)
 elseif viz == 0 

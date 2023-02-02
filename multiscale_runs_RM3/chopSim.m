@@ -3,24 +3,30 @@ clc
 clear
 close all
 
+%%
+currentFolder        = pwd;
 rho =1025;
-
-for caseID = 1:10
 viz = 1;
-Mass = MassForCases(caseID,rho);
-
 waveintT = 32;
+%%
+
+for caseID = 10
+
 chop.H   = 0.5;
-chop.T   = 8;
-chop.dir = 0;
 
-
-
-
+for i = 1:3:15 
+chop.T   = 4+i;
+for j = 1:8
+chop.dir = 0+22.5*j;
 wecSim
+mkdir(sprintf('RM3_scale%d',caseID))
+save(sprintf('chopsim_T%d_dir%d',chop.T,chop.dir*10),"output")
+source = sprintf('chopsim_T%d_dir%d.mat',chop.T,chop.dir*10);
+destination = sprintf('RM3_scale%d',caseID);
+movefile(source,destination)
 
-
-
+end
+end
 
 
 
