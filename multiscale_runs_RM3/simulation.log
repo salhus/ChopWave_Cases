@@ -11,7 +11,7 @@ In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('init
 In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('run', 'C:\Program Files\MATLAB\R2022b\toolbox\matlab\lang\run.m', 91)" style="font-weight:bold">run</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2022b\toolbox\matlab\lang\run.m',91,0)">line 91</a>)
 In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('wecSim', 'C:\Users\shusain\Documents\GitHub\WEC-Sim_sH\source\wecSim.m', 43)" style="font-weight:bold">wecSim</a> (<a href="matlab: opentoline('C:\Users\shusain\Documents\GitHub\WEC-Sim_sH\source\wecSim.m',43,0)">line 43</a>)
 In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('chopSim', 'C:\Users\shusain\Documents\GitHub\seedling_ChopWave_Cases\multiscale_runs_RM3\chopSim.m', 21)" style="font-weight:bold">chopSim</a> (<a href="matlab: opentoline('C:\Users\shusain\Documents\GitHub\seedling_ChopWave_Cases\multiscale_runs_RM3\chopSim.m',21,0)">line 21</a>)] 
-Elapsed time is 8.927290 seconds.
+Elapsed time is 10.727045 seconds.
 
 WEC-Sim Pre-processing ...   
 [Warning: Because water depth is specified in the wecSimInputFile, the water depth from the BEM data is ignored] 
@@ -37,7 +37,7 @@ In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('init
 In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('run', 'C:\Program Files\MATLAB\R2022b\toolbox\matlab\lang\run.m', 91)" style="font-weight:bold">run</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2022b\toolbox\matlab\lang\run.m',91,0)">line 91</a>)
 In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('wecSim', 'C:\Users\shusain\Documents\GitHub\WEC-Sim_sH\source\wecSim.m', 43)" style="font-weight:bold">wecSim</a> (<a href="matlab: opentoline('C:\Users\shusain\Documents\GitHub\WEC-Sim_sH\source\wecSim.m',43,0)">line 43</a>)
 In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('chopSim', 'C:\Users\shusain\Documents\GitHub\seedling_ChopWave_Cases\multiscale_runs_RM3\chopSim.m', 21)" style="font-weight:bold">chopSim</a> (<a href="matlab: opentoline('C:\Users\shusain\Documents\GitHub\seedling_ChopWave_Cases\multiscale_runs_RM3\chopSim.m',21,0)">line 21</a>)] 
-Elapsed time is 1.080648 seconds.
+Elapsed time is 1.604367 seconds.
 
 WEC-Sim Simulation Settings:
 	Start Time                     (sec) = 0
@@ -77,8 +77,8 @@ List of Constraint(s): Number of Constraints = 1
 
 
 Simulating the WEC device defined in the SimMechanics model C:\Users\shusain\Documents\GitHub\seedling_ChopWave_Cases\multiscale_runs_RM3\RM3.slx...   
-Elapsed time is 0.132756 seconds.
-Elapsed time is 55.093499 seconds.
+Elapsed time is 0.207002 seconds.
+Elapsed time is 58.079656 seconds.
 
 Post-processing and saving...   
-Elapsed time is 1.362368 seconds.
+Elapsed time is 1.420704 seconds.
