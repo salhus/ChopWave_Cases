@@ -5,39 +5,10 @@ Version: 5.0
 
 Initializing the Simulation Class...
 	Case Dir: C:\Users\shusain\Documents\GitHub\seedling_ChopWave_Cases\multiscale_runs_RM3 
-[Warning: Mechanics explorer not allowed in accelerator or rapid-accelerator modes. Turning mechanics explorer off.] 
-[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('simulationClass/checkInputs', 'C:\Users\shusain\Documents\GitHub\WEC-Sim_sH\source\objects\simulationClass.m', 138)" style="font-weight:bold">simulationClass/checkInputs</a> (<a href="matlab: opentoline('C:\Users\shusain\Documents\GitHub\WEC-Sim_sH\source\objects\simulationClass.m',138,0)">line 138</a>)
-In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('initializeWecSim', 'C:\Users\shusain\Documents\GitHub\WEC-Sim_sH\source\functions\initializeWecSim.m', 94)" style="font-weight:bold">initializeWecSim</a> (<a href="matlab: opentoline('C:\Users\shusain\Documents\GitHub\WEC-Sim_sH\source\functions\initializeWecSim.m',94,0)">line 94</a>)
-In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('run', 'C:\Program Files\MATLAB\R2022b\toolbox\matlab\lang\run.m', 91)" style="font-weight:bold">run</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2022b\toolbox\matlab\lang\run.m',91,0)">line 91</a>)
-In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('wecSim', 'C:\Users\shusain\Documents\GitHub\WEC-Sim_sH\source\wecSim.m', 43)" style="font-weight:bold">wecSim</a> (<a href="matlab: opentoline('C:\Users\shusain\Documents\GitHub\WEC-Sim_sH\source\wecSim.m',43,0)">line 43</a>)
-In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('chopSim', 'C:\Users\shusain\Documents\GitHub\seedling_ChopWave_Cases\multiscale_runs_RM3\chopSim.m', 21)" style="font-weight:bold">chopSim</a> (<a href="matlab: opentoline('C:\Users\shusain\Documents\GitHub\seedling_ChopWave_Cases\multiscale_runs_RM3\chopSim.m',21,0)">line 21</a>)] 
-Elapsed time is 10.727045 seconds.
+Elapsed time is 8.893278 seconds.
 
 WEC-Sim Pre-processing ...   
-[Warning: Because water depth is specified in the wecSimInputFile, the water depth from the BEM data is ignored] 
-[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('waveClass/setWaterDepth', 'C:\Users\shusain\Documents\GitHub\WEC-Sim_sH\source\objects\waveClass.m', 548)" style="font-weight:bold">waveClass/setWaterDepth</a> (<a href="matlab: opentoline('C:\Users\shusain\Documents\GitHub\WEC-Sim_sH\source\objects\waveClass.m',548,0)">line 548</a>)
-In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('waveClass/setup', 'C:\Users\shusain\Documents\GitHub\WEC-Sim_sH\source\objects\waveClass.m', 230)" style="font-weight:bold">waveClass/setup</a> (<a href="matlab: opentoline('C:\Users\shusain\Documents\GitHub\WEC-Sim_sH\source\objects\waveClass.m',230,0)">line 230</a>)
-In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('initializeWecSim', 'C:\Users\shusain\Documents\GitHub\WEC-Sim_sH\source\functions\initializeWecSim.m', 214)" style="font-weight:bold">initializeWecSim</a> (<a href="matlab: opentoline('C:\Users\shusain\Documents\GitHub\WEC-Sim_sH\source\functions\initializeWecSim.m',214,0)">line 214</a>)
-In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('run', 'C:\Program Files\MATLAB\R2022b\toolbox\matlab\lang\run.m', 91)" style="font-weight:bold">run</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2022b\toolbox\matlab\lang\run.m',91,0)">line 91</a>)
-In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('wecSim', 'C:\Users\shusain\Documents\GitHub\WEC-Sim_sH\source\wecSim.m', 43)" style="font-weight:bold">wecSim</a> (<a href="matlab: opentoline('C:\Users\shusain\Documents\GitHub\WEC-Sim_sH\source\wecSim.m',43,0)">line 43</a>)
-In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('chopSim', 'C:\Users\shusain\Documents\GitHub\seedling_ChopWave_Cases\multiscale_runs_RM3\chopSim.m', 21)" style="font-weight:bold">chopSim</a> (<a href="matlab: opentoline('C:\Users\shusain\Documents\GitHub\seedling_ChopWave_Cases\multiscale_runs_RM3\chopSim.m',21,0)">line 21</a>)] 
-[Warning: Passive yaw is not recommended without BEM data spanning a full yaw rotation -180 to 180 dg.
-Please inspect BEM data for gaps] 
-[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('bodyClass/irrExcitation', 'C:\Users\shusain\Documents\GitHub\WEC-Sim_sH\source\objects\bodyClass.m', 600)" style="font-weight:bold">bodyClass/irrExcitation</a> (<a href="matlab: opentoline('C:\Users\shusain\Documents\GitHub\WEC-Sim_sH\source\objects\bodyClass.m',600,0)">line 600</a>)
-In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('bodyClass/hydroForcePre', 'C:\Users\shusain\Documents\GitHub\WEC-Sim_sH\source\objects\bodyClass.m', 302)" style="font-weight:bold">bodyClass/hydroForcePre</a> (<a href="matlab: opentoline('C:\Users\shusain\Documents\GitHub\WEC-Sim_sH\source\objects\bodyClass.m',302,0)">line 302</a>)
-In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('initializeWecSim', 'C:\Users\shusain\Documents\GitHub\WEC-Sim_sH\source\functions\initializeWecSim.m', 242)" style="font-weight:bold">initializeWecSim</a> (<a href="matlab: opentoline('C:\Users\shusain\Documents\GitHub\WEC-Sim_sH\source\functions\initializeWecSim.m',242,0)">line 242</a>)
-In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('run', 'C:\Program Files\MATLAB\R2022b\toolbox\matlab\lang\run.m', 91)" style="font-weight:bold">run</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2022b\toolbox\matlab\lang\run.m',91,0)">line 91</a>)
-In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('wecSim', 'C:\Users\shusain\Documents\GitHub\WEC-Sim_sH\source\wecSim.m', 43)" style="font-weight:bold">wecSim</a> (<a href="matlab: opentoline('C:\Users\shusain\Documents\GitHub\WEC-Sim_sH\source\wecSim.m',43,0)">line 43</a>)
-In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('chopSim', 'C:\Users\shusain\Documents\GitHub\seedling_ChopWave_Cases\multiscale_runs_RM3\chopSim.m', 21)" style="font-weight:bold">chopSim</a> (<a href="matlab: opentoline('C:\Users\shusain\Documents\GitHub\seedling_ChopWave_Cases\multiscale_runs_RM3\chopSim.m',21,0)">line 21</a>)] 
-[Warning: Passive yaw is not recommended without BEM data spanning a full yaw rotation -180 to 180 dg.
-Please inspect BEM data for gaps] 
-[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('bodyClass/irrExcitation', 'C:\Users\shusain\Documents\GitHub\WEC-Sim_sH\source\objects\bodyClass.m', 600)" style="font-weight:bold">bodyClass/irrExcitation</a> (<a href="matlab: opentoline('C:\Users\shusain\Documents\GitHub\WEC-Sim_sH\source\objects\bodyClass.m',600,0)">line 600</a>)
-In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('bodyClass/hydroForcePre', 'C:\Users\shusain\Documents\GitHub\WEC-Sim_sH\source\objects\bodyClass.m', 302)" style="font-weight:bold">bodyClass/hydroForcePre</a> (<a href="matlab: opentoline('C:\Users\shusain\Documents\GitHub\WEC-Sim_sH\source\objects\bodyClass.m',302,0)">line 302</a>)
-In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('initializeWecSim', 'C:\Users\shusain\Documents\GitHub\WEC-Sim_sH\source\functions\initializeWecSim.m', 242)" style="font-weight:bold">initializeWecSim</a> (<a href="matlab: opentoline('C:\Users\shusain\Documents\GitHub\WEC-Sim_sH\source\functions\initializeWecSim.m',242,0)">line 242</a>)
-In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('run', 'C:\Program Files\MATLAB\R2022b\toolbox\matlab\lang\run.m', 91)" style="font-weight:bold">run</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2022b\toolbox\matlab\lang\run.m',91,0)">line 91</a>)
-In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('wecSim', 'C:\Users\shusain\Documents\GitHub\WEC-Sim_sH\source\wecSim.m', 43)" style="font-weight:bold">wecSim</a> (<a href="matlab: opentoline('C:\Users\shusain\Documents\GitHub\WEC-Sim_sH\source\wecSim.m',43,0)">line 43</a>)
-In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('chopSim', 'C:\Users\shusain\Documents\GitHub\seedling_ChopWave_Cases\multiscale_runs_RM3\chopSim.m', 21)" style="font-weight:bold">chopSim</a> (<a href="matlab: opentoline('C:\Users\shusain\Documents\GitHub\seedling_ChopWave_Cases\multiscale_runs_RM3\chopSim.m',21,0)">line 21</a>)] 
-Elapsed time is 1.604367 seconds.
+Elapsed time is 1.037553 seconds.
 
 WEC-Sim Simulation Settings:
 	Start Time                     (sec) = 0
@@ -55,21 +26,21 @@ Wave Environment:
 
 List of Body: Number of Bodies = 2 
 
-	***** Body Number 1, Name: float_p10 *****
-	Body CG                          (m) = [0,0,-0.72]
-	Body Mass                       (kg) = 725833 
-	Body Diagonal MOI              (kgm2)= [1.96621E+07,1.96621E+07,3.79526E+07]
+	***** Body Number 1, Name: float_p5 *****
+	Body CG                          (m) = [0,0,-0.36]
+	Body Mass                       (kg) = 90729.2 
+	Body Diagonal MOI              (kgm2)= [614441,614441,1.18602E+06]
 
-	***** Body Number 2, Name: spar_p10 *****
-	Body CG                          (m) = [0,0,-21.29]
-	Body Mass                       (kg) = 886687 
-	Body Diagonal MOI              (kgm2)= [1.07547E+08,1.07547E+08,1.18897E+07]
+	***** Body Number 2, Name: spar_p5 *****
+	Body CG                          (m) = [0,0,-10.645]
+	Body Mass                       (kg) = 110836 
+	Body Diagonal MOI              (kgm2)= [3.36085E+06,3.36085E+06,371555]
 
 List of PTO(s): Number of PTOs = 1 
 
 	***** PTO Name: PTO1 *****
-	PTO Stiffness           (N/m;Nm/rad) = 10000
-	PTO Damping           (Ns/m;Nsm/rad) = 100000
+	PTO Stiffness           (N/m;Nm/rad) = 5000
+	PTO Damping           (Ns/m;Nsm/rad) = 50000
 
 List of Constraint(s): Number of Constraints = 1 
 
@@ -77,8 +48,8 @@ List of Constraint(s): Number of Constraints = 1
 
 
 Simulating the WEC device defined in the SimMechanics model C:\Users\shusain\Documents\GitHub\seedling_ChopWave_Cases\multiscale_runs_RM3\RM3.slx...   
-Elapsed time is 0.207002 seconds.
-Elapsed time is 58.079656 seconds.
+Elapsed time is 0.120694 seconds.
+Elapsed time is 50.075671 seconds.
 
 Post-processing and saving...   
-Elapsed time is 1.420704 seconds.
+Elapsed time is 1.294369 seconds.

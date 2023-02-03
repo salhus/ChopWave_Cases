@@ -10,7 +10,7 @@ viz = 1;
 waveintT = 32;
 %%
 
-for caseID = 10
+for caseID = 5
 
 chop.H   = 0.5;
 
